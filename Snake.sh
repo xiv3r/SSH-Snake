@@ -1186,7 +1186,7 @@ find_from_bash_history() {
           if [[ ${#token} -gt 2 ]]; then
             ssh_user="${token:2}"
           elif [[ $((i+1)) -lt ${#tokens[@]} ]]; then
-            ssh_host="${tokens[$i+1]}"
+            ssh_user="${tokens[$i+1]}"
           else
             continue
           fi
