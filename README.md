@@ -18,7 +18,7 @@ Instead of manually jumping between systems with SSH keys like it's a Super Mari
 
 Although this tool is intended for hacking purposes, sysadmins can also use it to better understand their infrastructure and network. If you want to disable the printing of private keys discovered, [comment out this line of code](https://github.com/MegaManSec/SSH-Snake/blob/7ae7ef0afe0e067a1b96f69e508df52831a08b8b/Snake.sh#L964).
 
-An in-depth look at how this script actually works, technical details, interesting discoveries, design decisions, benchmarking, and lessons learnt, check out [this blog post](https://joshua.hu/ssh-snake-ssh-network-traversal-discover-ssh-private-keys-network-graph).
+An in-depth look at how this script actually works, technical details, interesting discoveries, design decisions, benchmarking, and lessons learnt, check out [this blog post](https://joshua.hu/ssh-snake-ssh-network-traversal-discover-ssh-private-keys-network-graph). This software was written by [Joshua Rogers](https://joshua.hu/).
 
 # Screenshots
 
